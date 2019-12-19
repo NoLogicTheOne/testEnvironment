@@ -1,0 +1,28 @@
+{
+  "name": "testenvironment",
+  "version": "1.0.0",
+  "description": "test environment for work with other repository, no test, only environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/NoLogicTheOne/testEnvironment.git"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "js"
+  ],
+  "author": "Relax <Loginovskikh.K@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-jest": "^24.9.0"
+  }
+}
